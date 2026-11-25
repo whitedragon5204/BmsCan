@@ -1,0 +1,10 @@
+---
+description: 本仓库只提交源码改动，不提交编译产物和厂商 dll
+alwaysApply: true
+---
+
+# 提交范围
+
+以后提交、推送只包含代码改动：`.cs`、`.resx`、`.csproj`、`.sln`、`App.config`、`README.md`、`.gitignore`、`Properties/`。
+
+不要加入：`bin/`、`obj/`、`.vs/`、dll、exe、`lib/`、`ControlCAN.dll`、`SqlHelper.cs`。不要用 `git add .` 把厂商库带进去。

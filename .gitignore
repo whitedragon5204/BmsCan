@@ -1,5 +1,19 @@
+# 编译产物，不提交
 bin/
 obj/
 .vs/
 *.user
+*.suo
+*.pdb
+*.exe
+*.dll
+
+# 运行日志、本机密钥
+logs/
+**/logs/
+*.log
 SqlHelper.cs
+
+# 厂商 CAN / NuGet 库，不进仓库
+lib/
+ControlCAN.dll
